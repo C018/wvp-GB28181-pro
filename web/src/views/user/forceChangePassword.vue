@@ -58,7 +58,7 @@
         </el-form-item>
 
         <el-button :loading="loading" type="primary" style="width:100%;margin-top:10px;" @click.native.prevent="handleSubmit">修改密码</el-button>
-        <el-button type="text" style="width:100%;margin-top:10px;" @click="handleLogout">退出登录</el-button>
+        <el-button type="text" style="width:100%; margin-top:10px; margin-left: 0" @click.native.prevent="handleLogout">退出登录</el-button>
       </el-form>
     </div>
   </div>
